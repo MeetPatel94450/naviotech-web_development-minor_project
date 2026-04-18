@@ -47,12 +47,19 @@ This project demonstrates secure user authentication with signup, login, and pro
 ## 📁 Project Structure
 NavioProject/
 │
+
 ├── server.js
+
 ├── db.js
+
 ├── .env
+
 ├── index.html
+
 │
+
 ├── routes/
+
 │ └── auth.js
 │
 └── middleware/
