@@ -15,10 +15,8 @@ This project demonstrates secure user authentication with signup, login, and pro
 ## 🚀 Features
 
 - ✅ User Signup
-- ✅ Secure Login
 - ✅ Password Hashing using bcrypt
 - ✅ JWT-based Authentication
-- ✅ Protected Routes
 - ✅ Display Logged-in User Email
 - ✅ Responsive Frontend UI
 
@@ -62,7 +60,7 @@ NavioProject/
 
 └── middleware/
 
-| └── auth.js
+|  └── auth.js
 
 ---
 
@@ -84,21 +82,31 @@ Use Live Server in VS Code
 
 ### 🧠 How It Works
 User signs up → password is hashed using bcrypt
+
 User logs in → credentials verified
+
 JWT token is generated
+
 Token is used to access protected routes
+
 Backend fetches user data using token
 
+
 ### 📸 Screenshots
-Login Page
-Signup Page
-Dashboard (with user email)
+- Login Page
+
+- Signup Page
+- Dashboard (with user email)
 
 
 ### ⚠️ Challenges Faced
+
 Handling JWT authentication errors
+
 Frontend-backend integration
+
 Database connection setup
+
 
 👨‍💻 Author
 
