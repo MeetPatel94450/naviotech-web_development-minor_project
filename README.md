@@ -56,17 +56,13 @@ NavioProject/
 
 ├── index.html
 
-│
-
 ├── routes/
-
 
 │ └── auth.js
 
-
 └── middleware/
 
-└── auth.js
+| └── auth.js
 
 ---
 
