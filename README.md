@@ -94,15 +94,15 @@ Backend fetches user data using token
 
 ### 📸 Screenshots
 
-- Login Page
+##- Login Page
 <img width="1366" height="628" alt="login_page" src="https://github.com/user-attachments/assets/4aa76074-9072-43fd-939f-510cd32296b8" />
 
 
-- Signup Page
+##- Signup Page
 <img width="1364" height="628" alt="sign_up" src="https://github.com/user-attachments/assets/d9b580df-9757-4c78-aae8-3bb1d6cbdbbc" />
 
 
-- Dashboard (with user email)
+##- Dashboard (with user email)
 <img width="1366" height="630" alt="dashboard" src="https://github.com/user-attachments/assets/7b2de44a-1998-4500-b070-7eb03b7cb4d6" />
 
 
