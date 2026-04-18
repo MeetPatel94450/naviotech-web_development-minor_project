@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Auth System</title>
 
-  <!-- Google Font -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 
   <style>
@@ -103,7 +102,6 @@
   </div>
 
   <div class="right">
-    <!-- Login Form -->
     <div id="loginForm">
       <h2>Login</h2>
       <input type="email" id="loginEmail" placeholder="Email">
@@ -112,7 +110,6 @@
       <div class="toggle" onclick="showSignup()">Don't have an account? Sign Up</div>
     </div>
 
-    <!-- Signup Form -->
     <div id="signupForm" class="hidden">
       <h2>Sign Up</h2>
       <input type="email" id="signupEmail" placeholder="Email">
@@ -121,7 +118,6 @@
       <div class="toggle" onclick="showLogin()">Already have an account? Login</div>
     </div>
 
-    <!-- Dashboard -->
     <div id="dashboard" class="hidden">
       <h2>Dashboard</h2>
       <p>You are logged in!</p>
@@ -200,7 +196,6 @@ function showLogin() {
   document.getElementById('loginForm').classList.remove('hidden');
 }
 
-// AUTO LOGIN
 window.onload = function () {
   const token = localStorage.getItem('token');
 
